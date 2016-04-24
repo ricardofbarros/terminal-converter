@@ -1,7 +1,7 @@
 # Terminal converter
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-![demo](https://cloud.githubusercontent.com/assets/6867996/8457085/4bd7575e-2007-11e5-9762-e3f942b78232.gif)
+![demo](https://cloud.githubusercontent.com/assets/6867996/14769928/d3831988-0a5b-11e6-8d35-79789efda031.gif)
 
 ## Installation
 ```bash
