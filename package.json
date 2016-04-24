@@ -1,0 +1,39 @@
+{
+  "name": "terminal-converter",
+  "version": "1.0.0",
+  "description": "Query google converter inside your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --verbose | snazzy && ./node_modules/.bin/mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardofbarros/terminal-converter/issues"
+  },
+  "homepage": "https://github.com/ricardofbarros/terminal-converter/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardofbarros/terminal-converter.git"
+  },
+  "bin": {
+    "conv": "bin/conv.js"
+  },
+  "author": {
+    "name": "Ricardo Barros",
+    "email": "ricardofbarros@hotmail.com"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "expect": "^1.18.0",
+    "mocha": "^2.4.5",
+    "pre-commit": "^1.1.2",
+    "snazzy": "^3.0.1",
+    "standard": "^6.0.8"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "license": "MIT"
+}
