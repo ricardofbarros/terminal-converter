@@ -26,6 +26,7 @@
     "request": "^2.72.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "expect": "^1.18.0",
     "mocha": "^2.4.5",
     "pre-commit": "^1.1.2",
